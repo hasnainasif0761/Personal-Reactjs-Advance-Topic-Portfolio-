@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+body,html
+{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'SpiderMan';
+    src: url('./assets/fonts/The\ Amazing\ Spider-Man.ttf');
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Decorative';
+    src: url('./assets/fonts/ORGANICAL\ PERSONAL\ USE.ttf');
+    font-weight: normal;
+    font-style: normal
+}
+.logo_head
+{
+    font-family: 'Decorative',sans-serif;
+}
+.hero_Cont
+{
+    background-image: linear-gradient(to bottom right , rgba(22, 164, 212, 0.358),#000),url('./assets/mounntain-img.jpg');
+    background-size: cover;
+    background-position: center center;
+}
