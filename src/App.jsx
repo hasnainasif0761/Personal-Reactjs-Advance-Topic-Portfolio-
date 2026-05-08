@@ -34,7 +34,7 @@ function App(){
           <HeroSection />
         </div>
         <div data-scroll-section>
-          <About />
+          {/* <About /> */}
         </div>
         <div data-scroll-section>
           <Resuma/>
