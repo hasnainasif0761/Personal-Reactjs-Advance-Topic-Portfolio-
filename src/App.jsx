@@ -20,7 +20,7 @@ function App(){
       tablet: { smooth:true }
     })
 
-    setTimeout(() => scroll.update(), 1000);
+    setTimeout(() => scroll.update, 1000);
 
     return ()=> scroll.destroy()
 
@@ -34,16 +34,16 @@ function App(){
           <HeroSection />
         </div>
         <div data-scroll-section>
-          {/* <About /> */}
+          <About />
         </div>
         <div data-scroll-section>
           <Resuma/>
         </div>
         <div data-scroll-section>
-          <Project/>
+          {/* <Project/> */}
         </div>
         <div data-scroll-section>
-          <Contact />
+          {/* <Contact /> */}
         </div>
       </div>
     )

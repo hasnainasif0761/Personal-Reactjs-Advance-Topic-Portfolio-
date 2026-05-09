@@ -6,7 +6,7 @@ function About() {
       
       {/* Heading Section */}
       <div className="relative mt-10 text-center px-4">
-        <h1 className="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[80px] md:text-[120px] font-[700] text-white/5 tracking-[8px] select-none">
+        <h1 className="absolute md:w-[700px] w-full md:flex hidden border top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:text-[60px] text-[10px] md:text-[120px] font-[700] text-white/5 tracking-[8px] select-none">
           ABOUT ME
         </h1>
         <h2 className="relative z-10 text-4xl md:text-5xl font-bold mt-2 text-[#d4af37] tracking-[4px]">
