@@ -40,10 +40,10 @@ function App(){
           <Resuma/>
         </div>
         <div data-scroll-section>
-          {/* <Project/> */}
+          <Project/>
         </div>
         <div data-scroll-section>
-          {/* <Contact /> */}
+          <Contact />
         </div>
       </div>
     )
