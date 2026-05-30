@@ -43,7 +43,7 @@ function App(){
           <Project/>
         </div>
         <div data-scroll-section>
-          <Contact />
+          {/* <Contact /> */}
         </div>
       </div>
     )
