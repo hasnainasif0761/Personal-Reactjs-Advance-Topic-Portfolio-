@@ -7,6 +7,7 @@ import Contact from './Pages/Contact'
 import { useEffect, useRef } from "react"
 import LocomotiveScroll from "locomotive-scroll"
 import 'locomotive-scroll/dist/locomotive-scroll.css'
+import MovingBall from "./components/MovingBall"
 
 function App(){
   const scrollRef = useRef(null);
@@ -30,6 +31,7 @@ function App(){
     return(
       <div data-scroll-container ref={scrollRef}>
         <div data-scroll-section>
+          <MovingBall/>
           <Navbar/>
           <HeroSection />
         </div>
